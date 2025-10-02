@@ -37,6 +37,10 @@ install-dev-tools() {
     echo -e "${YELLOW}Install Visual Studio Code${CLEAR}"
     brew install visual-studio-code
 
+    ## Cursor
+    echo -e "${YELLOW}Install Cursor${CLEAR}"
+    brew install --cask cursor
+
     ## mas-cli
     ## A simple command line interface for the Mac App Store. Designed for scripting and automation.
     echo -e "${YELLOW}Install mas-cli${CLEAR}"
